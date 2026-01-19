@@ -1,0 +1,31 @@
+@media screen and (max-width: 576px) {
+
+    nav
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar li {
+        display: none;
+    }
+    .hamburger_img {
+        display: block;
+    }
+    .login_button {
+        display: none;
+    }
+    .podcast {
+        padding: 10px;
+    }
+    .podcast_counts {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+
+
+
+
+
+}

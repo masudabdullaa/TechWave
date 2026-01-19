@@ -1,0 +1,195 @@
+/* shared style starts */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter_font {
+    font-family: "Inter", sans-serif;
+}
+
+.display_flex {
+    display: flex;
+}
+
+.text_white {
+    color: #fff;
+}
+
+.font_16 {
+    font-size: 16px;
+}
+
+.text_title_big {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.text_description {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.gradient_background {
+    background-image: linear-gradient(#F7E93F, #FB09B4, #9100F8);
+}
+
+.gradient_text {
+    background-image: linear-gradient(#9100F8, #FB09B4, #F7E93F);
+    background-clip: text;
+    color: transparent;
+}
+
+
+/* shared style ends */
+
+/* header section starts */
+nav {
+    background-color: #1A0B2E;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+nav .nav_title {
+    font-size: 2rem;
+    color: #fff
+}
+
+.hamburger_img {
+    display: none;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar li {
+    margin-right: 32px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.login_button {
+    padding: 12px 16px;
+    border-radius: 1000px;
+}
+
+.login_button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* header section ends */
+
+/* banner section starts */
+/* banner section ends */
+
+/* podcast section starts */
+.podcast {
+    background-color: #1A0B2E;
+}
+
+.section_podcast {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.podcast_head {
+    padding-top: 50px;
+}
+
+.podcast_description {
+    font-size: 16px;
+    padding-top: 18px;
+    line-height: 20px;
+}
+
+.podcast_counts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.podcast_box_head {
+    color: #00FF88;
+    font-size: 3rem;
+}
+
+.podcast_box_description {
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* podcast section ends */
+
+/* TechWave section starts */
+.techwave {
+    background-color: #230E3D;
+}
+
+.techwave_section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+.techwave_title {
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.techwave_boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.techwave_boxes div {
+    padding: 40px;
+    background-color: #351165;
+    border-radius: 40px;
+    align-content: center;
+}
+
+.tech_box1 {
+    grid-row: span 2;
+}
+
+.tech_box2,
+.tech_box3 {
+    grid-column: span 2;
+}
+
+.techbox_title {
+    color: #fff;
+    font-size: 24px;
+    margin: 16px 0;
+}
+
+.techbox_description {
+    font-size: 16px;
+    color: #fff;
+    opacity: 60%;
+}
+
+/* TechWave section ends */
