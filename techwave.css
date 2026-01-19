@@ -204,7 +204,8 @@ nav .nav_title {
     margin: 0 auto;
 }
 .feature_title {
-    margin: 40px 0;
+    margin-top: 120px;
+    margin-bottom: 40px;
     color: #fff;
     text-align: center;
     font-size: 3rem;
@@ -242,4 +243,46 @@ nav .nav_title {
     color: #00FF88;
     padding-bottom: 24px;
  }
+.card_duration {
+    align-items: center;
+}
+.card_duration .clock_img {
+    margin-right: 6px;
+}
+.host_section {
+    background-color: #351165;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 40px;
+}
+.host_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 24px;
+}
+.host_title {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.host_description {
+    font-size: 1rem;
+    color: #fff;
+    opacity: 60%;
+}
+.social_icons {
+    margin-top: 16px;
+
+}
+.social_icons img {
+    padding: 10px;
+    border: 1px solid #533C72;
+    border-radius: 50%;
+}
+
 /* feature section ends */

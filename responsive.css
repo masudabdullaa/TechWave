@@ -30,7 +30,16 @@
     .techwave_boxes div {
     margin: 0 10px;
 }
-
+.feature_cards {
+    grid-template-columns: repeat(1, 1fr);
+}
+.host_section {
+    flex-direction: column;
+    justify-content: center;
+}
+.host_image {
+    margin: 0 auto;
+}
 
 
 
