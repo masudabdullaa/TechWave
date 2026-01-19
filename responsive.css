@@ -1,45 +1,55 @@
 @media screen and (max-width: 576px) {
 
-    nav
-    {
+    nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+
     .navbar li {
         display: none;
     }
+
     .hamburger_img {
         display: block;
     }
+
     .login_button {
         display: none;
     }
+
     .podcast {
         padding: 10px;
     }
+
     .podcast_counts {
-    grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
+
     .techwave_boxes {
-    grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
-    .techwave_title {
+
+    .techwave_title,
+    .footer_icon,
+    .host_section {
         flex-direction: column;
     }
+
     .techwave_boxes div {
-    margin: 0 10px;
-}
-.feature_cards {
-    grid-template-columns: repeat(1, 1fr);
-}
-.host_section {
-    flex-direction: column;
-    justify-content: center;
-}
-.host_image {
-    margin: 0 auto;
-}
+        margin: 0 10px;
+    }
+
+    .feature_cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .host_image {
+        margin: 0 auto;
+    }
+    footer .footer_content {
+        padding: 20px;
+    }
 
 
 
