@@ -193,3 +193,53 @@ nav .nav_title {
 }
 
 /* TechWave section ends */
+
+/* feature section starts */
+.feature {
+    background-color: #1A0B2E;
+    padding: 120px 0;
+}
+.feature_section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.feature_title {
+    margin: 40px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+}
+.feature_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+}
+
+.features_card {
+    background-color: #250D44;
+    border-radius: 24px;
+}
+.features_card iframe {
+    width: 100%;
+    height: auto;
+}
+.features_card .card_title {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 24px;
+    padding-bottom: 12px;
+}
+.features_card .card_description {
+    font-size: 1rem;
+    color: #fff;
+    opacity: 60%;
+    padding: 12px 24px;
+}
+.features_card .card_duration {
+    font-size: 16px;
+    padding: 12px 24px;
+    color: #00FF88;
+    padding-bottom: 24px;
+ }
+/* feature section ends */
