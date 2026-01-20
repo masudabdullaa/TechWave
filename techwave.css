@@ -51,7 +51,7 @@ nav {
     background-color: #1A0B2E;
     align-items: center;
     justify-content: space-around;
-    padding: 20px 0;
+    padding: 20px 10px;
 }
 
 nav .nav_title {
@@ -143,6 +143,7 @@ nav .nav_title {
 /* TechWave section starts */
 .techwave {
     background-color: #230E3D;
+    padding: 10px;
 }
 
 .techwave_section {
@@ -197,7 +198,7 @@ nav .nav_title {
 /* feature section starts */
 .feature {
     background-color: #1A0B2E;
-    padding: 120px 0;
+    padding: 120px 10px;
 }
 .feature_section {
     max-width: 1200px;
