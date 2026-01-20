@@ -53,7 +53,7 @@ header {
 }
 nav {
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px 10px;
     max-width: 1200px;
     margin: 0 auto;

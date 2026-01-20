@@ -23,8 +23,7 @@
     }
 
     .podcast_counts {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0;
+        grid-template-columns: repeat(1, 1fr);
     }
     .podcast_description {
     padding: 0;
@@ -37,6 +36,7 @@
     .footer_icon,
     .host_section {
         flex-direction: column;
+        text-align: center;
     }
 
     .techwave_boxes div {
