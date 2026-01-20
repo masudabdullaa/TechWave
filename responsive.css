@@ -62,9 +62,11 @@
     .techwave_boxes div {
         margin: 10px 0;
     }
+
     .feature {
         padding: 10px;
     }
+
     .feature_cards {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -84,13 +86,14 @@
     }
 
 
-            .box2 {
-                top: 20%;
-                left: 15%;
-            }
-            .banner_button {
-            flex-direction: column;
-        }
+    .box2 {
+        top: 20%;
+        left: 15%;
+    }
+
+    .banner_button {
+        flex-direction: column;
+    }
 
 
 }

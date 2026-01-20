@@ -50,6 +50,7 @@
 header {
     background-color: #1A0B2E;
 }
+
 nav {
     align-items: center;
     justify-content: space-between;
@@ -98,85 +99,93 @@ nav .nav_title {
 
 /* banner section starts */
 .box1 {
-            width: 100%;
-            height: 90vh;
-            background-image: url(./assets/hero-bg.png);
-            background-size: cover;
-            background-repeat: no-repeat;
-            position: relative;
-        }
+    width: 100%;
+    height: 90vh;
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
-        .box2 {
-            position: absolute;
-            top: 20%;
-            left: 40%;
-        }
+.box2 {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
 
-        .box3 {
-            position: absolute;
-            left: 35%;
-            top: 25%;
-        }
+.box3 {
+    position: absolute;
+    left: 35%;
+    top: 25%;
+}
 
-        .new_button {
-            font-size: 18px;
-            background-color: #00FF88;
-            border-radius: 1000px;
-            color: #1A0B2E;
-            font-weight: 600;
-            padding: 8px 16px;
-            border: none;
-            position: absolute;
-            top: -50%;
-            right: -60%;
-        }
-        .banner_content {
-            position: absolute;
-            margin: 0 auto;
-        }
-        .banner_content h2 {
-            font-size: 4rem;
-            margin-bottom: 0;
-            color: #fff;
-            text-align: center;
-        }
-        .banner_content p {
-            font-size: 16px;
-            color: #fff;
-            opacity: 80%;
-            text-align: center;
-            width: 550px;
-        }
-        .banner_button {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .banner_button .spotify {
-            text-decoration: none;
-            color: #fff;
-            font-weight: 600;
-            font-size: 1rem;
-            background-color: transparent;
-            padding: 12px 20px;
-            border: 1px solid #00FF88;
-            border-radius: 1000px;
-            margin: 10px;
-        }
-        .banner_button .subscrib {
-            text-decoration: none;
-            color: #00FF88;
-            font-weight: 600;
-            font-size: 1rem;
-            background-color: transparent;
-            padding: 12px 20px;
-            border: 1px solid #00FF88;
-            border-radius: 1000px;
-            margin: 10px;
-        }
-        .banner_button .subscrib i {
-            color: #00FF88;
-        }
+.new_button {
+    font-size: 18px;
+    background-color: #00FF88;
+    border-radius: 1000px;
+    color: #1A0B2E;
+    font-weight: 600;
+    padding: 8px 16px;
+    border: none;
+    position: absolute;
+    top: -50%;
+    right: -60%;
+}
+
+.banner_content {
+    position: absolute;
+    margin: 0 auto;
+}
+
+.banner_content h2 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.banner_content p {
+    font-size: 16px;
+    color: #fff;
+    opacity: 80%;
+    text-align: center;
+    width: 550px;
+}
+
+.banner_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_button .spotify {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: transparent;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 1000px;
+    margin: 10px;
+}
+
+.banner_button .subscrib {
+    text-decoration: none;
+    color: #00FF88;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: transparent;
+    padding: 12px 20px;
+    border: 1px solid #00FF88;
+    border-radius: 1000px;
+    margin: 10px;
+}
+
+.banner_button .subscrib i {
+    color: #00FF88;
+}
+
 /* banner section ends */
 
 /* podcast section starts */
@@ -199,6 +208,8 @@ nav .nav_title {
     font-size: 1rem;
     padding: 18px 230px;
     line-height: 20px;
+    color: #fff;
+    opacity: 80%;
 }
 
 .podcast_counts {
@@ -219,6 +230,7 @@ nav .nav_title {
 
 .podcast_box_description {
     color: #fff;
+    opacity: 80%;
     font-size: 1rem;
 }
 
@@ -245,6 +257,7 @@ nav .nav_title {
     color: #fff;
     font-size: 2rem;
 }
+
 .techwave_boxes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -286,10 +299,12 @@ nav .nav_title {
     background-color: #1A0B2E;
     padding: 120px 10px;
 }
+
 .feature_section {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .feature_title {
     margin-top: 120px;
     margin-bottom: 40px;
@@ -297,6 +312,7 @@ nav .nav_title {
     text-align: center;
     font-size: 3rem;
 }
+
 .feature_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -308,36 +324,43 @@ nav .nav_title {
     background-color: #250D44;
     border-radius: 24px;
 }
+
 .features_card iframe {
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     width: 100%;
     height: auto;
 }
+
 .features_card .card_title {
     font-size: 1.5rem;
     color: #fff;
     padding: 24px;
     padding-bottom: 12px;
 }
+
 .features_card .card_description {
     font-size: 1rem;
     color: #fff;
     opacity: 60%;
     padding: 12px 24px;
 }
+
 .features_card .card_duration {
     font-size: 16px;
     padding: 12px 24px;
     color: #00FF88;
     padding-bottom: 24px;
- }
+}
+
 .card_duration {
     align-items: center;
 }
+
 .card_duration .clock_img {
     margin-right: 6px;
 }
+
 .host_section {
     background-color: #351165;
     max-width: 1200px;
@@ -348,26 +371,31 @@ nav .nav_title {
     margin-top: 40px;
     padding: 40px;
 }
+
 .host_image {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-right: 24px;
 }
+
 .host_title {
     font-size: 2rem;
     color: #fff;
     margin-bottom: 16px;
 }
+
 .host_description {
     font-size: 1rem;
     color: #fff;
     opacity: 60%;
 }
+
 .social_icons {
     margin-top: 16px;
 
 }
+
 .social_icons img {
     padding: 10px;
     border: 1px solid #533C72;
@@ -382,20 +410,24 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 footer .footer_content {
     padding: 120px;
     margin: 0 auto;
     text-align: center;
 }
+
 footer .footer_icon {
     align-items: center;
     justify-content: center;
     margin: 20px 0;
 }
+
 .footer_title {
     font-size: 4rem;
     color: #fff;
 }
+
 .footer_icon a {
     text-decoration: none;
     color: #fff;
@@ -407,12 +439,15 @@ footer .footer_icon {
     margin: 0 24px;
 
 }
+
 .footer_icon img {
     margin-right: 10px;
 }
+
 .copyright_text {
     font-size: 1rem;
     color: #FAFAFA;
     opacity: 60%;
 }
+
 /* footer section ends */
