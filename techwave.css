@@ -158,15 +158,15 @@ nav .nav_title {
 }
 
 .techwave_title {
-    color: #fff;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     padding-top: 120px;
     padding-bottom: 40px;
 }
-.techwave_title_text_one {
+.techwave_title_text {
+    color: #fff;
     font-size: 2rem;
-    align-items: center;
-    justify-content: space-between;
 }
 .techwave_boxes {
     display: grid;
