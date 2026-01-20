@@ -23,13 +23,23 @@
     }
 
     .podcast_counts {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+        align-items: center;
+        justify-content: center;
     }
     .podcast_description {
     padding: 0;
     }
+    .techwave {
+        background-color: #230E3D;
+    }
+    .techwave_boxes div {
+        background-color: #351165;
+    }
     .techwave_boxes {
         grid-template-columns: repeat(1, 1fr);
+        gap: 0;
     }
 
     .techwave_title,
@@ -40,7 +50,7 @@
     }
 
     .techwave_boxes div {
-        margin: 0 10px;
+        margin: 10px 0;
     }
 
     .feature_cards {
