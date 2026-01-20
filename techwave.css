@@ -49,7 +49,6 @@
 /* header section starts */
 header {
     background-color: #1A0B2E;
-
 }
 nav {
     align-items: center;
@@ -60,7 +59,7 @@ nav {
 }
 
 nav .nav_title {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #fff
 }
 
@@ -98,6 +97,86 @@ nav .nav_title {
 /* header section ends */
 
 /* banner section starts */
+.box1 {
+            width: 100%;
+            height: 90vh;
+            background-image: url(./assets/hero-bg.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .box2 {
+            position: absolute;
+            top: 20%;
+            left: 40%;
+        }
+
+        .box3 {
+            position: absolute;
+            left: 35%;
+            top: 25%;
+        }
+
+        .new_button {
+            font-size: 18px;
+            background-color: #00FF88;
+            border-radius: 1000px;
+            color: #1A0B2E;
+            font-weight: 600;
+            padding: 8px 16px;
+            border: none;
+            position: absolute;
+            top: -50%;
+            right: -60%;
+        }
+        .banner_content {
+            position: absolute;
+            margin: 0 auto;
+        }
+        .banner_content h2 {
+            font-size: 4rem;
+            margin-bottom: 0;
+            color: #fff;
+            text-align: center;
+        }
+        .banner_content p {
+            font-size: 16px;
+            color: #fff;
+            opacity: 80%;
+            text-align: center;
+            width: 550px;
+        }
+        .banner_button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .banner_button .spotify {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+            font-size: 1rem;
+            background-color: transparent;
+            padding: 12px 20px;
+            border: 1px solid #00FF88;
+            border-radius: 1000px;
+            margin: 10px;
+        }
+        .banner_button .subscrib {
+            text-decoration: none;
+            color: #00FF88;
+            font-weight: 600;
+            font-size: 1rem;
+            background-color: transparent;
+            padding: 12px 20px;
+            border: 1px solid #00FF88;
+            border-radius: 1000px;
+            margin: 10px;
+        }
+        .banner_button .subscrib i {
+            color: #00FF88;
+        }
 /* banner section ends */
 
 /* podcast section starts */
@@ -163,8 +242,6 @@ nav .nav_title {
     justify-content: space-around;
     padding-top: 120px;
     padding-bottom: 40px;
-}
-.techwave_title_text {
     color: #fff;
     font-size: 2rem;
 }
@@ -232,6 +309,8 @@ nav .nav_title {
     border-radius: 24px;
 }
 .features_card iframe {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
     width: 100%;
     height: auto;
 }
