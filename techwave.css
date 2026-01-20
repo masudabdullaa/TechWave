@@ -111,6 +111,8 @@ nav .nav_title {
     position: absolute;
     top: 20%;
     left: 40%;
+    max-width: 550px;
+    margin: 0 auto;
 }
 
 .box3 {
@@ -135,6 +137,7 @@ nav .nav_title {
 .banner_content {
     position: absolute;
     margin: 0 auto;
+    left: -20%;
 }
 
 .banner_content h2 {
