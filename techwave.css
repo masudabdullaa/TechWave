@@ -158,12 +158,16 @@ nav .nav_title {
 }
 
 .techwave_title {
-    align-items: center;
-    justify-content: space-around;
+    color: #fff;
+
     padding-top: 120px;
     padding-bottom: 40px;
 }
-
+.techwave_title_text_one {
+    font-size: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
 .techwave_boxes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
