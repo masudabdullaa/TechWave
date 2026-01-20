@@ -47,11 +47,16 @@
 /* shared style ends */
 
 /* header section starts */
-nav {
+header {
     background-color: #1A0B2E;
+
+}
+nav {
     align-items: center;
     justify-content: space-around;
     padding: 20px 10px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 nav .nav_title {
@@ -112,8 +117,8 @@ nav .nav_title {
 }
 
 .podcast_description {
-    font-size: 16px;
-    padding-top: 18px;
+    font-size: 1rem;
+    padding: 18px 230px;
     line-height: 20px;
 }
 
